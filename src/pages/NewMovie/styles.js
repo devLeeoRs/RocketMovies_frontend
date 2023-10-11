@@ -55,6 +55,10 @@ export const Form = styled.form`
     gap: 40px;
     display: flex;
   }
+
+  @media (max-width: 723px) {
+    padding: 0 20px;
+  }
 `;
 
 export const Marks = styled.div`

@@ -20,6 +20,11 @@ export const Container = styled.header`
     font-weight: 700;
     color: ${({ theme }) => theme.COLORS.ROSE};
   }
+
+  @media (max-width: 720px) {
+    display: flex;
+    padding: 0 20px;
+  }
 `;
 
 export const Profile = styled.div`
