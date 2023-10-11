@@ -44,4 +44,8 @@ export const Background = styled.div`
   flex: 1;
   background: url(${backgroundImg}) no-repeat center center;
   background-size: cover;
+
+  @media (max-width: 450px) {
+    display: none;
+  }
 `;
