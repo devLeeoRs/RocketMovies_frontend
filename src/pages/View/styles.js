@@ -64,4 +64,8 @@ export const Section = styled.section`
     font-size: 16px;
     font-weight: 400;
   }
+
+  @media (max-width: 450px) {
+    margin: 40px 20px;
+  }
 `;

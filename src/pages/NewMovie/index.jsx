@@ -51,7 +51,7 @@ export function NewMovie() {
         rating,
       });
 
-      alert("Filme cadastrada ");
+      alert("Filme cadastrado com sucesso! ");
       navigate(-1);
     } catch (error) {
       if (error.response) {
