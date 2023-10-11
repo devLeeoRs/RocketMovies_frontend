@@ -23,6 +23,10 @@ export const Main = styled.div`
   > div {
     max-width: 207px;
   }
+
+  @media (max-width: 720px) {
+    padding: 0 20px;
+  }
 `;
 
 export const Section = styled.section`

@@ -3,8 +3,14 @@ import backgroundImg from "../../assets/bg-login.png";
 
 export const Container = styled.div`
   height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: stretch;
+
+  @media (max-width: 450px) {
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const Form = styled.form`
@@ -37,6 +43,10 @@ export const Form = styled.form`
   button {
     margin: 0 auto;
     margin-top: 24px;
+  }
+
+  @media (max-width: 450px) {
+    padding: 0 20px;
   }
 `;
 
